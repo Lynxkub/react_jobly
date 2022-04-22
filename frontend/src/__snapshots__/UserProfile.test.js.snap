@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Edit Your Profile
+    </h2>
+    <h4>
+      Make changes to your First Name , Last Name , or Email
+    </h4>
+    <form>
+      <label
+        for="firstName"
+      >
+        First Name
+      </label>
+      <input
+        data-testid="firstName"
+        name="firstName"
+        type="text"
+        value=""
+      />
+      <label
+        for="lastName"
+      >
+        Last Name
+      </label>
+      <input
+        data-testid="lastName"
+        name="lastName"
+        type="text"
+        value=""
+      />
+      <label
+        for="email"
+      >
+        Email
+      </label>
+      <input
+        data-testid="email"
+        name="email"
+        type="email"
+        value=""
+      />
+      <label
+        for="password"
+      >
+        Password
+      </label>
+      <input
+        data-testid="password"
+        name="password"
+        placeholder="Enter Password to Submit Changes"
+        type="password"
+        value=""
+      />
+      <button>
+        Submit Changes
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
